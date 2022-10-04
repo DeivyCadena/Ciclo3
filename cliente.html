@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="myScript.js"></script>
+<body>
+    <div style="text-align:center;">
+    <h1> Clientes</h1>
+    Id de cliente: <input type="number" id="idCliente"><br> <br>
+    Nombre de cliente: <input type="text" id="nombreCliente"><br> <br>
+    Correo de cliente: <input type="text" id="mailCliente"><br> <br>
+    edad del cliente: <input type="number" id="edadCliente"><br> <br>
+    <button onclick="guardarCliente()"> guardar cliente </button>
+    <button onclick="editarCliente()"> Actualizar clientes </button>
+    <button onclick="leerClientes()"> Traer clientes </button>
+    </div>
+    <br>
+
+    <div id="listaClientes", style="text-align:center;">
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style="text-align:center;">
+    <a href="index.html" title="Regresar la Menu Principal">Regresar Menu Inicio </a>
+    </div>
+
+
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            text-align:center;
+            margin:0 auto;
+        }
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</body>
+</html>

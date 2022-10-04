@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="myScript.js"></script>
+<body>
+    <div style="text-align:center;">
+    <h1> Disfraz</h1>
+    Id disfraz: <input type="number" id="idDisfraz"><br> <br>
+    Marca: <input type="text" id="marcaDisfraz"><br> <br>
+    Modelo: <input type="number" id="modeloDisfraz"><br> <br>
+    Categoria: <input type="number" id="categoriaDisfraz"><br> <br>
+	Nombre: <input type="text" id="nombreDisfraz"><br> <br>
+    <button onclick="guardarDisfraz()"> guardar disfraz </button>
+    <button onclick="editarDisfraz()"> Actualizar disfraz </button>
+    <button onclick="leerDisfraz()"> Traer disfraz </button>
+    </div>
+    <br>
+
+    <div id="listaDisfraz", style="text-align:center;">
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style="text-align:center;">
+    <a href="index.html" title="Regresar la Menu Principal">Regresar Menu Inicio </a>
+    </div>
+
+
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            text-align:center;
+            margin:0 auto;
+        }
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</body>
+</html>
